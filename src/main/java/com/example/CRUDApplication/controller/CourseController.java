@@ -73,8 +73,5 @@ public class CourseController {
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @PostMapping("/courses/{courseId}/enroll")
-    public ResponseEntity<HttpStatus> enrollCourse(@PathVariable Long courseId) {
 
-    }
 }
